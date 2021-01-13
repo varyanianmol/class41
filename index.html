@@ -12,15 +12,26 @@
     <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
 
 
-    <script>
-      //Your web app's Firebase configuration
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
 
-      // // Initialize Firebase
-      // firebase.initializeApp(firebaseConfig);
-
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    </script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDk5g1kMkwASdBcuCYQPlwSK6VRXljZEmE",
+    authDomain: "car-race-ff4c5.firebaseapp.com",
+    databaseURL: "https://car-race-ff4c5-default-rtdb.firebaseio.com",
+    projectId: "car-race-ff4c5",
+    storageBucket: "car-race-ff4c5.appspot.com",
+    messagingSenderId: "465074215035",
+    appId: "1:465074215035:web:b3155a9e179ab17dcfeade"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 
     <script src="js/Player.js"></script>
     <script src="js/Form.js"></script>
